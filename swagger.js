@@ -188,7 +188,7 @@ const swaggerOptions = {
  *           schema:
  *             $ref: '#/components/schemas/CreateBookRequest'
  *     responses:
- *       200:
+ *       201:
  *         description: The created book.
  *         content:
  *           application/json:
