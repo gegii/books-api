@@ -1,0 +1,21 @@
+notes: 
+1. no secured ENV variables used for testing purpose
+2. on each app start for testing, database data is cleared, and empty tables are created.
+
+SETUP AND RUN APP:
+
+1. Set your postgreSQL database creds in "db/config.js" file
+2. Start APP with: "npm install" and then "node index"
+
+Upon successful startup, you should see the following messages in the console:
+"Server listening on port 3000"
+"Database connection has been established successfully."
+
+RUN TESTS:
+1. make sure server is running
+2. command: "npm run test"
+
+API documentation with swagger: http://localhost:3000/api-docs/
+
+All provided requirements are completed and should work. 
+For issues or questions, contact gegijaniashvili@gmail.com.
